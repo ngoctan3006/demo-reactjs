@@ -1,11 +1,8 @@
+import CenterItemDemo from '@components/CenterLayout';
 import { FC } from 'react';
 
 const App: FC = () => {
-  return (
-    <div>
-      <h1 className="text-3xl">Hello World</h1>
-    </div>
-  );
+  return <CenterItemDemo />;
 };
 
 export default App;
